@@ -1,0 +1,162 @@
+\hypertarget{class_tukk}{}\section{Tukk Class Reference}
+\label{class_tukk}\index{Tukk@{Tukk}}
+
+
+{\ttfamily \#include $<$tukk.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tukk_ae488ab9342984c0cd8423bad2a2b6aaf}{Tukk}} ()
+\item 
+bool \mbox{\hyperlink{class_tukk_a9a473bdd35032215c19fb5de1ed34fbd}{on\+Vaba}} (int x, int y, std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$ kinni)
+\item 
+void \mbox{\hyperlink{class_tukk_aaea787c20a3f6069ddee1fcb8be824c2}{liigu\+Vasakule}} (std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$ kinni)
+\item 
+void \mbox{\hyperlink{class_tukk_a92d79109e3751eb5475f878c791ff241}{liigu\+Paremale}} (std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$ kinni)
+\item 
+bool \mbox{\hyperlink{class_tukk_adb3c531cf6fa683e4256c8794c24de78}{liigu\+Alla}} (std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$ kinni)
+\item 
+void \mbox{\hyperlink{class_tukk_a0314e4600166d267c57877a3e504788f}{keera\+Paripaeva}} (std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$ kinni)
+\item 
+void \mbox{\hyperlink{class_tukk_a942fbfd4046c0d89c86854915ecc1126}{eemalda\+Rea\+Tukiosad}} (int rida)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_koordinaat}{Koordinaat}} $>$ \mbox{\hyperlink{class_tukk_a29cc3bf866c68aeaaee2cadcb496b9d3}{tuki\+Osad}}
+\item 
+int \mbox{\hyperlink{class_tukk_a5ac12a5f3cfa2dfea930e0bca00d6051}{milline\+Tukk}}
+\item 
+Q\+Color \mbox{\hyperlink{class_tukk_a7857976349b7db76f7d7d889404e9728}{varv}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tetrise tüki klass. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_tukk_ae488ab9342984c0cd8423bad2a2b6aaf}\label{class_tukk_ae488ab9342984c0cd8423bad2a2b6aaf}} 
+\index{Tukk@{Tukk}!Tukk@{Tukk}}
+\index{Tukk@{Tukk}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{Tukk()}{Tukk()}}
+{\footnotesize\ttfamily Tukk\+::\+Tukk (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Tüki konstruktor, genereerib suvalise kuju 7 seast. X O X X
+
+X O X X
+
+X O X X
+
+O X X X
+
+O X X X
+
+X O X X
+
+X O X X
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_tukk_a942fbfd4046c0d89c86854915ecc1126}\label{class_tukk_a942fbfd4046c0d89c86854915ecc1126}} 
+\index{Tukk@{Tukk}!eemaldaReaTukiosad@{eemaldaReaTukiosad}}
+\index{eemaldaReaTukiosad@{eemaldaReaTukiosad}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{eemaldaReaTukiosad()}{eemaldaReaTukiosad()}}
+{\footnotesize\ttfamily void Tukk\+::eemalda\+Rea\+Tukiosad (\begin{DoxyParamCaption}\item[{int}]{rida }\end{DoxyParamCaption})}
+
+Eemaldab ette antud real olevad tükid. 
+\begin{DoxyParams}{Parameters}
+{\em rida} & -\/ rida, kust tükid eemaldada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tukk_a0314e4600166d267c57877a3e504788f}\label{class_tukk_a0314e4600166d267c57877a3e504788f}} 
+\index{Tukk@{Tukk}!keeraParipaeva@{keeraParipaeva}}
+\index{keeraParipaeva@{keeraParipaeva}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{keeraParipaeva()}{keeraParipaeva()}}
+{\footnotesize\ttfamily void Tukk\+::keera\+Paripaeva (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$}]{kinni }\end{DoxyParamCaption})}
+
+Keerab praegust tükki päripäeva, kui saab. 
+\begin{DoxyParams}{Parameters}
+{\em kinni} & -\/ tükid, mis on mängulaual ees, kuhu ei tohi minna. \\
+\hline
+\end{DoxyParams}
+Pööramiseks teen (x, y) -\/$>$ (-\/y, x). See järel liigutan vanasse keskpunkti tagasi. kus a = vanaX -\/ uusX, b = vanaY -\/ uusY\mbox{\Hypertarget{class_tukk_adb3c531cf6fa683e4256c8794c24de78}\label{class_tukk_adb3c531cf6fa683e4256c8794c24de78}} 
+\index{Tukk@{Tukk}!liiguAlla@{liiguAlla}}
+\index{liiguAlla@{liiguAlla}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{liiguAlla()}{liiguAlla()}}
+{\footnotesize\ttfamily bool Tukk\+::liigu\+Alla (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$}]{kinni }\end{DoxyParamCaption})}
+
+Liigutab praegust tükki alla. 
+\begin{DoxyParams}{Parameters}
+{\em kinni} & -\/ kõik tükid, mis on ees. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+kui sai liikuda, siis true, kui ei saanud, siis false. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_tukk_a92d79109e3751eb5475f878c791ff241}\label{class_tukk_a92d79109e3751eb5475f878c791ff241}} 
+\index{Tukk@{Tukk}!liiguParemale@{liiguParemale}}
+\index{liiguParemale@{liiguParemale}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{liiguParemale()}{liiguParemale()}}
+{\footnotesize\ttfamily void Tukk\+::liigu\+Paremale (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$}]{kinni }\end{DoxyParamCaption})}
+
+Liigutab tükki paremale. 
+\begin{DoxyParams}{Parameters}
+{\em kinni} & -\/ tükid, mis on mängulaual ees, kuhu ei tohi minna. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tukk_aaea787c20a3f6069ddee1fcb8be824c2}\label{class_tukk_aaea787c20a3f6069ddee1fcb8be824c2}} 
+\index{Tukk@{Tukk}!liiguVasakule@{liiguVasakule}}
+\index{liiguVasakule@{liiguVasakule}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{liiguVasakule()}{liiguVasakule()}}
+{\footnotesize\ttfamily void Tukk\+::liigu\+Vasakule (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$}]{kinni }\end{DoxyParamCaption})}
+
+Liigutab tükki vasakule. 
+\begin{DoxyParams}{Parameters}
+{\em kinni} & -\/ tükid, mis on mängulaual ees, kuhu ei tohi minna. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tukk_a9a473bdd35032215c19fb5de1ed34fbd}\label{class_tukk_a9a473bdd35032215c19fb5de1ed34fbd}} 
+\index{Tukk@{Tukk}!onVaba@{onVaba}}
+\index{onVaba@{onVaba}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{onVaba()}{onVaba()}}
+{\footnotesize\ttfamily bool Tukk\+::on\+Vaba (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$}]{kinni }\end{DoxyParamCaption})}
+
+Kontrollib kas antud koordinaat on vaba. 
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ x kordinaat. \\
+\hline
+{\em y} & -\/ y kordinaat. \\
+\hline
+{\em kinni} & -\/ tükid, mis on mängulaual ees, kuhu ei tohi minna. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true kui on vaba, false kui ei ole. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_tukk_a5ac12a5f3cfa2dfea930e0bca00d6051}\label{class_tukk_a5ac12a5f3cfa2dfea930e0bca00d6051}} 
+\index{Tukk@{Tukk}!millineTukk@{millineTukk}}
+\index{millineTukk@{millineTukk}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{millineTukk}{millineTukk}}
+{\footnotesize\ttfamily int Tukk\+::milline\+Tukk}
+
+Arv, milline tükk on. Täpsemalt, mis arv on mis tükk näeb konstruktorist. \mbox{\Hypertarget{class_tukk_a29cc3bf866c68aeaaee2cadcb496b9d3}\label{class_tukk_a29cc3bf866c68aeaaee2cadcb496b9d3}} 
+\index{Tukk@{Tukk}!tukiOsad@{tukiOsad}}
+\index{tukiOsad@{tukiOsad}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{tukiOsad}{tukiOsad}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{struct_koordinaat}{Koordinaat}}$>$ Tukk\+::tuki\+Osad}
+
+Tüki osade koordinaadid. \mbox{\Hypertarget{class_tukk_a7857976349b7db76f7d7d889404e9728}\label{class_tukk_a7857976349b7db76f7d7d889404e9728}} 
+\index{Tukk@{Tukk}!varv@{varv}}
+\index{varv@{varv}!Tukk@{Tukk}}
+\subsubsection{\texorpdfstring{varv}{varv}}
+{\footnotesize\ttfamily Q\+Color Tukk\+::varv}
+
+Tüki värv. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/tukk.\+h\item 
+src/tukk.\+cpp\end{DoxyCompactItemize}

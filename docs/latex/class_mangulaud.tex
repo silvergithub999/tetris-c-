@@ -1,0 +1,97 @@
+\hypertarget{class_mangulaud}{}\section{Mangulaud Class Reference}
+\label{class_mangulaud}\index{Mangulaud@{Mangulaud}}
+
+
+{\ttfamily \#include $<$mangulaud.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_mangulaud_aaa04c0374a469d942b76b8ca2628ded6}{Mangulaud}} ()
+\item 
+void \mbox{\hyperlink{class_mangulaud_ac1eb20dea1713fbf7baacecefcd76481}{lisa\+Skoor}} (int lisada)
+\item 
+bool \mbox{\hyperlink{class_mangulaud_a9d6ac3b57461e3258dba146adbd653eb}{uus\+Tukk}} ()
+\item 
+void \mbox{\hyperlink{class_mangulaud_a5b22a965c640d97549afcef1a101278d}{rida\+Tais}} ()
+\item 
+int \mbox{\hyperlink{class_mangulaud_a38e9432a82198c83a445629086980904}{tagasta\+Skoor}} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{class_tukk}{Tukk}} $>$ \mbox{\hyperlink{class_mangulaud_a156a2c25e2adc3f830d3094e3f1693ff}{tukid}}
+\item 
+\mbox{\hyperlink{class_tukk}{Tukk}} \mbox{\hyperlink{class_mangulaud_a42c3121190a81047c4d3aba5e0365573}{praegune}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Mängulaua klass. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_mangulaud_aaa04c0374a469d942b76b8ca2628ded6}\label{class_mangulaud_aaa04c0374a469d942b76b8ca2628ded6}} 
+\index{Mangulaud@{Mangulaud}!Mangulaud@{Mangulaud}}
+\index{Mangulaud@{Mangulaud}!Mangulaud@{Mangulaud}}
+\subsubsection{\texorpdfstring{Mangulaud()}{Mangulaud()}}
+{\footnotesize\ttfamily Mangulaud\+::\+Mangulaud (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Mängulaua konstruktor. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_mangulaud_ac1eb20dea1713fbf7baacecefcd76481}\label{class_mangulaud_ac1eb20dea1713fbf7baacecefcd76481}} 
+\index{Mangulaud@{Mangulaud}!lisaSkoor@{lisaSkoor}}
+\index{lisaSkoor@{lisaSkoor}!Mangulaud@{Mangulaud}}
+\subsubsection{\texorpdfstring{lisaSkoor()}{lisaSkoor()}}
+{\footnotesize\ttfamily void Mangulaud\+::lisa\+Skoor (\begin{DoxyParamCaption}\item[{int}]{lisada }\end{DoxyParamCaption})}
+
+Lisab skoori juurde. 
+\begin{DoxyParams}{Parameters}
+{\em lisada} & -\/ skoor, mis kogu skoorile lisada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_mangulaud_a5b22a965c640d97549afcef1a101278d}\label{class_mangulaud_a5b22a965c640d97549afcef1a101278d}} 
+\index{Mangulaud@{Mangulaud}!ridaTais@{ridaTais}}
+\index{ridaTais@{ridaTais}!Mangulaud@{Mangulaud}}
+\subsubsection{\texorpdfstring{ridaTais()}{ridaTais()}}
+{\footnotesize\ttfamily void Mangulaud\+::rida\+Tais (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Kontrollib, kas kuskil on rida täis. Kui on, siis eemaldab selle rea ja toob üleval olevad read alla. \mbox{\Hypertarget{class_mangulaud_a38e9432a82198c83a445629086980904}\label{class_mangulaud_a38e9432a82198c83a445629086980904}} 
+\index{Mangulaud@{Mangulaud}!tagastaSkoor@{tagastaSkoor}}
+\index{tagastaSkoor@{tagastaSkoor}!Mangulaud@{Mangulaud}}
+\subsubsection{\texorpdfstring{tagastaSkoor()}{tagastaSkoor()}}
+{\footnotesize\ttfamily int Mangulaud\+::tagasta\+Skoor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Tagastab skoori. \begin{DoxyReturn}{Returns}
+skoor. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_mangulaud_a9d6ac3b57461e3258dba146adbd653eb}\label{class_mangulaud_a9d6ac3b57461e3258dba146adbd653eb}} 
+\index{Mangulaud@{Mangulaud}!uusTukk@{uusTukk}}
+\index{uusTukk@{uusTukk}!Mangulaud@{Mangulaud}}
+\subsubsection{\texorpdfstring{uusTukk()}{uusTukk()}}
+{\footnotesize\ttfamily bool Mangulaud\+::uus\+Tukk (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Kui eelmine tükk ei saa enam edasi liikuda, siis tekitab uue tüki. \begin{DoxyReturn}{Returns}
+true kui saab edasi liikuda, false kui ei saa. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_mangulaud_a42c3121190a81047c4d3aba5e0365573}\label{class_mangulaud_a42c3121190a81047c4d3aba5e0365573}} 
+\index{Mangulaud@{Mangulaud}!praegune@{praegune}}
+\index{praegune@{praegune}!Mangulaud@{Mangulaud}}
+\subsubsection{\texorpdfstring{praegune}{praegune}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_tukk}{Tukk}} Mangulaud\+::praegune}
+
+Tükk, mida mängulaual praegu liigutatakse. \mbox{\Hypertarget{class_mangulaud_a156a2c25e2adc3f830d3094e3f1693ff}\label{class_mangulaud_a156a2c25e2adc3f830d3094e3f1693ff}} 
+\index{Mangulaud@{Mangulaud}!tukid@{tukid}}
+\index{tukid@{tukid}!Mangulaud@{Mangulaud}}
+\subsubsection{\texorpdfstring{tukid}{tukid}}
+{\footnotesize\ttfamily std\+::vector$<$\mbox{\hyperlink{class_tukk}{Tukk}}$>$ Mangulaud\+::tukid}
+
+Tükid, mis on mängulaual juba paigas. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/mangulaud.\+h\item 
+src/mangulaud.\+cpp\end{DoxyCompactItemize}
